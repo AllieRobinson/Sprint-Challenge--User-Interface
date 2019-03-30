@@ -251,3 +251,37 @@ header {
     margin: 20px;
     padding-top: 43px;
 }
+
+.aboutdivs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.aboutchilddiv {
+    width: 360px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutchilddiv img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.learnmore {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px 20px;
+    background-color: white;
+    margin: 15px 0;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.worktogether {
+    margin-bottom: 40px;
+}
